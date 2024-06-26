@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Wacky Anime Store</title>
+    <link rel="stylesheet" href="Anime2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/WhatsApp Image 2024-05-15 at 12.30.40.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="Anime.html">HOME</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">MEMBERSHIP</a></li>
+                </ul>
+            </nav>
+            <img src="images/cart.png" width="30px" height="30px">
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+<div class="small-container">
+
+<div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+    <option>Default Sorting</option>
+    <option>Sort by price</option>
+    <option>Sort by popularity</option>
+    <option>Sort by rating</option>
+    <option>Sort by sale</option>
+    </select>
+</div>
+
+<div class="row">
+    <div class="ani-4">
+        <img src="images/1.png">
+        <h4>Akatsuki Hoodie</h4>
+        <p>R580</p>
+       </div>
+       <div class="ani-4">
+        <img src="images/2.jpg">
+        <h4>Attack on Titan Anime Hoodie Jacket</h4>
+        <p>R1500</p>
+       </div>
+       <div class="ani-4">
+        <img src="images/3.png">
+        <h4>Goku Orange Design T-shirt</h4>
+        <p>R150</p>
+       </div>
+       <div class="ani-4">
+        <img src="images/4.png">
+        <h4>Itadori Sweatshirt</h4>
+        <p>R300</p>
+       </div>
+       <div class="row">
+        <div class="ani-4">
+            <img src="images/5.png">
+            <h4>Akatsuki Cloak</h4>
+            <p>R1000</p>
+           </div>
+           <div class="ani-4">
+            <img src="images/6.jpg">
+            <h4>Akatsuki Set Crop Top</h4>
+            <p>R880</p>
+           </div>
+           <div class="ani-4">
+            <img src="images/7.png">
+            <h4>Goku Black Hoodie</h4>
+            <p>R450</p>
+           </div>
+           <div class="ani-4">
+            <img src="images/8.png">
+            <h4>Itadori Phone Case</h4>
+            <p>R320</p>
+           </div>
+           <div class="row">
+            <div class="ani-4">
+                <img src="images/9.png">
+                <h4>Attack On Titan Wallet</h4>
+                <p>R180</p>
+               </div>
+               <div class="ani-4">
+                <img src="images/10.png">
+                <h4>Demon Slayer Sneakers</h4>
+                <p>R2400</p>
+               </div>
+               <div class="ani-4">
+                <img src="images/12.jpg">
+                <h4>Dragon Ball Sweater Jacket </h4>
+                <p>R950</p>
+               </div>
+               <div class="ani-4">
+                <img src="images/13.png">
+                <h4>Attack On Titan Cloak</h4>
+                <p>R750</p>
+               </div>
+ </div>
+
+</div>
+
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594;</span>
+</div>
+<!----- footer ----->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-ani-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and Ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-ani-2">
+                <img src="images/401-logo.png">
+                <p>Our Purpose Is To Sustainably Make Pleasure and Benefits of Anime Accessible to the Many</p>
+            </div>
+            <div class="footer-ani-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-ani-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>X</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020</p>
+    </div>
+</div>
+<!----- js for toggle menu ----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px"
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px"
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px"
+        }
+    }
+</script>
+
+    
+</body>
+</html>
